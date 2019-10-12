@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+}
+
+.landing {
+background-image: url("starter-code/img/img-1.jpg");
+background-position: center;
+background-size: cover;
+min-height: 60vh;
+color: #fff;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 100%;
+}
