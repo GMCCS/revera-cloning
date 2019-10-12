@@ -22,3 +22,30 @@ h1 {
 .dropdown-content > li > a:hover {
   color: #ed564b !important; /*links turn red when hovered*/
 }
+
+.read-more {
+  border: 2px solid white;
+  padding: 8px 32px;
+
+}
+
+.carousel-item img {
+  -webkit-filter: grayscale(100%);
+  filter:grayscale(100%); 
+}
+.carousel-item a:visited {
+  color:white;
+  text-decoration:none;
+}
+
+.carousel-control-prev-icon {
+  color:red !important;
+  background-color: red;
+}
+.carousel-control-next-icon {
+  background-color: red;
+  color: red !important;
+}
+.carousel-control-next {
+  padding:10px;
+}
